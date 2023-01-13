@@ -28,13 +28,13 @@
 // const result = mergeArray(arr1, arr2);
 // console.log(result);
 
-const users = [
-  { id: 1, name: "Jack", isActive: true },
-  { id: 2, name: "John", isActive: true },
-  { id: 3, name: "Mike", isActive: false },
-];
+// const users = [
+//   { id: 1, name: "Jack", isActive: true },
+//   { id: 2, name: "John", isActive: true },
+//   { id: 3, name: "Mike", isActive: false },
+// ];
 
-const isNameExists = (name, arr) => arr.some((el) => el.name === name);
+// const isNameExists = (name, arr) => arr.some((el) => el.name === name);
 
 // const isNameExists = (name, users) => {
 //   let exists = false;
@@ -48,3 +48,23 @@ const isNameExists = (name, arr) => arr.some((el) => el.name === name);
 
 // console.log(isNameExists("Jack", users));
 // console.log(isNameExists("Hoo", users));
+
+// const users = [
+//   { id: 1, name: "Jack", isActive: true },
+//   { id: 2, name: "Jack", isActive: true },
+//   { id: 3, name: "Mike", isActive: false },
+// ];
+
+// const uniqueArr = (arr) => {
+//   return [...new Set(arr)];
+// };
+
+// console.log(uniqueArr([1, 1, 3]));
+
+const arr = [10, 20, 3];
+
+//const result = arr.sort((a, b) => (a < b ? 1 : -1));
+// const result = arr.sort((a, b) => a - b);
+const result = arr.sort((a, b) => b - a);
+
+console.log(result);
