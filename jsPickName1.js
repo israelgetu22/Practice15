@@ -49,3 +49,5 @@ console.log(names);
 */
 
 //console.log(names.reverse());
+
+console.log("multi");
